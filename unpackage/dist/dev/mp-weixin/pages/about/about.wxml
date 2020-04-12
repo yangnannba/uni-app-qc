@@ -1,0 +1,1 @@
+<view class="about"><image class="about-img" src="{{src}}"></image><view class="address"><view data-event-opts="{{[['tap',[['callphone',['$event']]]]]}}" bindtap="__e">电话: 15501253238</view><view>地址: xxxxxxxxxxxxxxxxxxx</view></view><map style="width:100%;height:480rpx;margin:0 auto;" latitude="{{latitude}}" longitude="{{longitude}}" markers="{{covers}}"></map></view>

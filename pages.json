@@ -1,0 +1,59 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}
+	    ,{
+            "path" : "pages/stroy/stroy",
+            "style" : {
+				"navigationBarTitleText": "故事"
+			}
+        }
+        ,{
+            "path" : "pages/about/about",
+            "style" : {
+				"navigationBarTitleText": "我的"
+			}
+        }
+        ,{
+            "path" : "pages/details/details",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "汽车",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/icon/home.png",
+			"selectedIconPath": "static/icon/home-active.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/stroy/stroy",
+			"iconPath": "static/icon/stroy.png",
+			"selectedIconPath": "static/icon/stroy-active.png",
+			"text": "故事"
+		},
+		{
+			"pagePath": "pages/about/about",
+			"iconPath": "static/icon/about.png",
+			"selectedIconPath": "static/icon/about-active.png",
+			"text": "我的"
+		}]
+	}	
+	
+	
+	
+	
+}
